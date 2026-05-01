@@ -1,6 +1,8 @@
 ﻿<Project Sdk="Uno.Sdk">
 	<PropertyGroup>
 		<TargetFrameworks>
+			net8.0;
+			net8.0-windows;
 			net9.0;
 			net9.0-windows10.0.19041;
 			net9.0-browserwasm;
@@ -51,6 +53,10 @@
     <FrameworkReference Update="Microsoft.Windows.SDK.NET.Ref" TargetingPackVersion="10.0.22621.28" /> -->
 	</ItemGroup>
 
+	<ItemGroup>
+	  <None Remove="Packages\UnoKeyboard.1.1.1.nupkg" />
+	</ItemGroup>
+
 	<!-- <PropertyGroup>
 		<WindowsSdkPackageVersion>10.0.19041.38</WindowsSdkPackageVersion>
 	</PropertyGroup> -->
@@ -64,6 +70,10 @@
 			<Pack>True</Pack>
 			<PackagePath>\</PackagePath>
 		</None>
+	</ItemGroup>
+	
+	<ItemGroup>
+	  <Folder Include="Packages\" />
 	</ItemGroup>
 
 </Project>

@@ -75,13 +75,18 @@ public static class VirtualKeys
         { "Quote",          new VirtualKeyModel("Quote",        KeyType.Text,       "\"",   "\"",   0x0022, 0x0022, null) },
         { "Space",          new VirtualKeyModel("Space",        KeyType.Space,      " ",    " ",    0x0000, 0x0000, KeyPathGeometry.Space) },
         { "Enter",          new VirtualKeyModel("Enter",        KeyType.Enter,      "",     "",     0x0000, 0x0000, KeyPathGeometry.Enter) },
-        { "Shift",          new VirtualKeyModel("Shift",        KeyType.Shift,      "",     "",     0x0000, 0x0000, KeyPathGeometry.Shift) }, 
+        { "Shift",          new VirtualKeyModel("Shift",        KeyType.Shift,      "",     "",     0x0000, 0x0000, KeyPathGeometry.Shift) },
         { "Back",           new VirtualKeyModel("Back",         KeyType.Back,       "",     "",     0x0000, 0x0000, KeyPathGeometry.Back) },
         { "Symbols",        new VirtualKeyModel("Symbols",      KeyType.Symbols,    "&123", "&123", 0x0002, 0x0002, null) },
         { "Alfa",           new VirtualKeyModel("Alfa",         KeyType.Alfa,       "ABC",  "ABC",  0x0001, 0x0001, null) },
         { "Caret",          new VirtualKeyModel("Caret",        KeyType.Text,       "^",    "^",    0x005E, 0x005E, null) },
         { "Tilde",          new VirtualKeyModel("Tilde",        KeyType.Text,       "~",    "~",    0x007E, 0x007E, null) },
         { "Pipe",           new VirtualKeyModel("Pipe",         KeyType.Text,       "|",    "|",    0x007C, 0x007C, null) },
+        { "C_Caron",        new VirtualKeyModel("C_Caron",      KeyType.Text, "Č", "č", 0x010C, 0x010D, null) },
+        { "C_Acute",        new VirtualKeyModel("C_Acute",      KeyType.Text, "Ć", "ć", 0x0106, 0x0107, null) },
+        { "D_Stroke",       new VirtualKeyModel("D_Stroke",     KeyType.Text, "Đ", "đ", 0x0110, 0x0111, null) },
+        { "S_Caron",        new VirtualKeyModel("S_Caron",      KeyType.Text, "Š", "š", 0x0160, 0x0161, null) },
+        { "Z_Caron",        new VirtualKeyModel("Z_Caron",      KeyType.Text, "Ž", "ž", 0x017D, 0x017E, null) },
     };
 
     /// <summary>
