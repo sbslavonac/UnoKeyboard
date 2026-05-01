@@ -54,7 +54,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <None Remove="Packages\UnoKeyboard.1.1.1.nupkg" />
+	  <Compile Remove="Packages\**" />
+	  <EmbeddedResource Remove="Packages\**" />
+	  <None Remove="Packages\**" />
 	</ItemGroup>
 
 	<!-- <PropertyGroup>
@@ -73,7 +75,19 @@
 	</ItemGroup>
 	
 	<ItemGroup>
-	  <Folder Include="Packages\" />
+	  <UpToDateCheckInput Remove="Packages\**" />
+	</ItemGroup>
+	
+	<ItemGroup>
+	  <Content Remove="Packages\**" />
+	</ItemGroup>
+	
+	<ItemGroup>
+	  <Page Remove="Packages\**" />
+	</ItemGroup>
+	
+	<ItemGroup>
+	  <PRIResource Remove="Packages\**" />
 	</ItemGroup>
 
 </Project>
