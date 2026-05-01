@@ -1,11 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.37216.2 d17.14
+VisualStudioVersion = 17.14.37216.2
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnoKeyboard", "UnoKeyboard.csproj", "{9F9393A3-8B82-F352-D679-EA5C39EA9CA5}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PosApp.Wpf", "..\..\..\PosApp.Wpf.Recreated\PosApp.Wpf\PosApp.Wpf.csproj", "{7E131808-E5B6-16CE-F562-7F6B35E91564}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +15,6 @@ Global
 		{9F9393A3-8B82-F352-D679-EA5C39EA9CA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F9393A3-8B82-F352-D679-EA5C39EA9CA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F9393A3-8B82-F352-D679-EA5C39EA9CA5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7E131808-E5B6-16CE-F562-7F6B35E91564}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7E131808-E5B6-16CE-F562-7F6B35E91564}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7E131808-E5B6-16CE-F562-7F6B35E91564}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7E131808-E5B6-16CE-F562-7F6B35E91564}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
